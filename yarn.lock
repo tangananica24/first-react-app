@@ -7785,6 +7785,16 @@ multicast-dns@^6.0.1:
     dns-packet "^1.3.1"
     thunky "^1.0.2"
 
+n_@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/n_/-/n_-3.0.0.tgz#c4b9e0cb071cb1f34bfbc477984e3e788a34e9b4"
+  integrity sha512-wxSZkyIIdgNOIj6j4Gz/xW8hXm1aXV1Y5DD0mUgGMZSwvpCridZ7vAc+mlP6o19xADD0YZ77/fdPd69myHyE3Q==
+  dependencies:
+    chalk "^4.0.0"
+    lodash "^4.17.15"
+    repl-story "^0.3.0"
+    yargs "^15.3.1"
+
 nan@^2.12.1:
   version "2.14.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"
@@ -9842,6 +9852,11 @@ repeat-string@^1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
   integrity sha1-jcrkcOHIirwtYA//Sndihtp15jc=
+
+repl-story@^0.3.0:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/repl-story/-/repl-story-0.3.2.tgz#f71c8aca0dfd5173e8cb00156bfe089c6b1aede5"
+  integrity sha512-hc3gL85gm3CYhzGR3g/b3zU20Q01F4QRklJx1vzLprJnYVptT0+CBao0JYodv51rxA+HAqytBsEKOipyowovkQ==
 
 require-directory@^2.1.1:
   version "2.1.1"
@@ -12027,7 +12042,7 @@ yargs@^13.3.2:
     y18n "^4.0.0"
     yargs-parser "^13.1.2"
 
-yargs@^15.4.1:
+yargs@^15.3.1, yargs@^15.4.1:
   version "15.4.1"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-15.4.1.tgz#0d87a16de01aee9d8bec2bfbf74f67851730f4f8"
   integrity sha512-aePbxDmcYW++PaqBsJ+HYUFwCdv4LVvdnhBy78E57PIor8/OVvhMrADFFEDh8DHDFRv/O9i3lPhsENjO7QX0+A==
